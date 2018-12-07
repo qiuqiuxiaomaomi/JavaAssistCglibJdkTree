@@ -26,6 +26,11 @@ jdk,JavaAssist,Cglib动态代理技术研究
             进行代理，静态代理在程序程序规模稍大时就无法胜任了。
 </pre>
 
+
+动态代理中万能的代理类
+
+![](https://i.imgur.com/ZfhvGQc.png)
+
 <pre>
 动态代理：
      在运行时才能确定代理对象；
