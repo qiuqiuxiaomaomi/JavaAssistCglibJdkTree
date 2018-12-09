@@ -41,3 +41,15 @@ jdk,JavaAssist,Cglib动态代理技术研究
      动态代理只能代理接口，代理类都需要实现 InvocationHandler类，实现invoke方法，该
   方法是调用被代理接口的所有方法时需要调用的，该invoke方法的返回值是被代理接口的一个实现类。
 </pre>
+
+
+![](https://i.imgur.com/C95PPlx.png)
+
+<pre>
+区别：
+      JDK动态代理：
+          只能对实现了接口的类实行代理，而不针对类。
+      CGLIB：
+          是针对类实现代理。
+          使用字节码技术，不能对 final类进行继承。使用了动态生成字节码技术
+</pre>
